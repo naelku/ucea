@@ -23,7 +23,7 @@ async def _(client, callback_query):
             f"""
 <blockquote><b>SILAHKAN MELAKUKAN PEMBAYARAN KE NOMOR DANA OWNER</b>           
 
-QRIS : ||https://files.catbox.moe/uza3pu.jpg||
+QRIS :||https://files.catbox.moe/823vg6.jpg||
 
 <b>💬 sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ ʙᴜᴋᴛɪ sᴄʀᴇᴇɴsʜᴏᴛ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ: {full_name}</b></blockquote>
 """,
@@ -54,7 +54,7 @@ QRIS : ||https://files.catbox.moe/uza3pu.jpg||
             )
             CONFIRM_PAYMENT.remove(get.id)
             buttons = [
-                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/xpiw_00")]
+                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/@TEPZSTORE12")]
             ]
             return await bot.send_message(
                 user_id,
